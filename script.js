@@ -13,7 +13,9 @@ function checkNumber(num) {
 		score--;
 		return "Low guess";
 	}
-	document.querySelector(".number").textContent = num;	
+	document.querySelector(".number").textContent = num;
+	document.querySelector("body").style.backgroundColor = "#11E70A";
+	document.querySelector(".number").style.width = '500px'
 	return "Perfect";
 }
 
